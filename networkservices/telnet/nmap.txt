@@ -1,0 +1,44 @@
+# Nmap 7.80 scan initiated Tue Oct 27 20:16:34 2020 as: nmap -A -p- -oN nmap.txt -v 10.10.171.43
+Nmap scan report for 10.10.171.43
+Host is up (0.11s latency).
+Not shown: 65534 closed ports
+PORT     STATE SERVICE VERSION
+8012/tcp open  unknown
+| fingerprint-strings: 
+|   DNSStatusRequestTCP, DNSVersionBindReqTCP, FourOhFourRequest, GenericLines, HTTPOptions, Help, JavaRMI, Kerberos, LANDesk-RC, LDAPBindReq, LDAPSearchReq, LPDString, NCP, NULL, NotesRPC, RPCCheck, RTSPRequest, SIPOptions, SSLSessionReq, TLSSessionReq, TerminalServer, TerminalServerCookie, X11Probe: 
+|_    SKIDY'S BACKDOOR. Type .HELP to view commands
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port8012-TCP:V=7.80%I=7%D=10/27%Time=5F98BAEE%P=x86_64-unknown-linux-gn
+SF:u%r(NULL,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20c
+SF:ommands\n")%r(GenericLines,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\
+SF:x20to\x20view\x20commands\n")%r(HTTPOptions,2E,"SKIDY'S\x20BACKDOOR\.\x
+SF:20Type\x20\.HELP\x20to\x20view\x20commands\n")%r(RTSPRequest,2E,"SKIDY'
+SF:S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n")%r(RPCCh
+SF:eck,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20comman
+SF:ds\n")%r(DNSVersionBindReqTCP,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HE
+SF:LP\x20to\x20view\x20commands\n")%r(DNSStatusRequestTCP,2E,"SKIDY'S\x20B
+SF:ACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n")%r(Help,2E,"SK
+SF:IDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n")%r(S
+SF:SLSessionReq,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\
+SF:x20commands\n")%r(TerminalServerCookie,2E,"SKIDY'S\x20BACKDOOR\.\x20Typ
+SF:e\x20\.HELP\x20to\x20view\x20commands\n")%r(TLSSessionReq,2E,"SKIDY'S\x
+SF:20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n")%r(Kerberos
+SF:,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\
+SF:n")%r(X11Probe,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20vie
+SF:w\x20commands\n")%r(FourOhFourRequest,2E,"SKIDY'S\x20BACKDOOR\.\x20Type
+SF:\x20\.HELP\x20to\x20view\x20commands\n")%r(LPDString,2E,"SKIDY'S\x20BAC
+SF:KDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n")%r(LDAPSearchReq
+SF:,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\
+SF:n")%r(LDAPBindReq,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20
+SF:view\x20commands\n")%r(SIPOptions,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20
+SF:\.HELP\x20to\x20view\x20commands\n")%r(LANDesk-RC,2E,"SKIDY'S\x20BACKDO
+SF:OR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n")%r(TerminalServer,2
+SF:E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20commands\n"
+SF:)%r(NCP,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to\x20view\x20co
+SF:mmands\n")%r(NotesRPC,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x20\.HELP\x20to
+SF:\x20view\x20commands\n")%r(JavaRMI,2E,"SKIDY'S\x20BACKDOOR\.\x20Type\x2
+SF:0\.HELP\x20to\x20view\x20commands\n");
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Oct 27 20:30:02 2020 -- 1 IP address (1 host up) scanned in 808.17 seconds

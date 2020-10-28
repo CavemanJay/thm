@@ -1,0 +1,35 @@
+===============================================================
+Gobuster v3.1.0
+by OJ Reeves (@TheColonial) & Christian Mehlmauer (@firefart)
+===============================================================
+[+] Url:                     http://10.10.190.34
+[+] Method:                  GET
+[+] Threads:                 100
+[+] Wordlist:                /usr/share/wordlists/discovery/raft-small-directories.txt
+[+] Negative Status codes:   403,404
+[+] User Agent:              gobuster/3.1.0
+[+] Timeout:                 10s
+===============================================================
+2020/10/26 19:54:12 Starting gobuster in directory enumeration mode
+===============================================================
+/css (Status: 301)
+/admin (Status: 301)         
+/js (Status: 301)            
+/wp-content (Status: 301)    
+/wp-includes (Status: 301)   
+/images (Status: 301)        
+/wp-admin (Status: 301)      
+/blog (Status: 301)          
+/rss (Status: 301)           
+/xmlrpc (Status: 405)        
+/feed (Status: 301)          
+/video (Status: 301)         
+/login (Status: 302)         
+/sitemap (Status: 200)       
+/audio (Status: 301)         
+/image (Status: 301)         
+
+[!] Keyboard interrupt detected, terminating.
+===============================================================
+2020/10/26 19:55:18 Finished
+===============================================================
