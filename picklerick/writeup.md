@@ -1,0 +1,16 @@
+- Inspecting the main webpage yields a username of R1ckRul3s
+- Password can be found in robots.txt
+  - Wubbalubbadubdub
+- portal.php allows for running commands in the textbox
+  - cat command is blocked. use grep instead
+  - grep . <filename>
+- Command to get ingredient 1
+  - `grep . Sup3rS3cretPickl3Ingred.txt`
+- Contents of clue.txt
+  - Look around the file system for the other ingredient.
+- Command to get ingredient 2
+  - `cd /home/rick; grep . "second ingredients"`
+- See who the current user is and if they can run sudo
+  - `sudo -l`
+- get the 3rd ingredient
+  - `sudo less /root/3rd.txt`
